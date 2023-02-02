@@ -1,0 +1,54 @@
+:root {
+    --dark: #1B2430;
+    --primary: #FB2576;
+    --border: #C147E9;
+}
+
+* {
+    background-color: var(--dark);
+    color: azure;
+}
+
+#root {
+    position: relative;
+}
+
+#list {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+#detail {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 10%);
+}
+
+.card {
+    border-color: var(--border);
+}
+
+.list-group-item {
+    background-color: var(--dark);
+    border-color: var(--border);
+    color: azure;
+}
+
+.list-group-item:hover {
+    background-color: var(--primary);
+}
+
+.list-group-item:hover .row {
+    background-color: var(--primary);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--border);
+}
+
+.btn-primary:hover {
+    background-color: var(--dark);
+    border-color: var(--border);
+}
